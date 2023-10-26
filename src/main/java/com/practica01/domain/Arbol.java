@@ -25,6 +25,7 @@ public class Arbol implements Serializable{
     private String nombreCientifico;
     private String nombreComun;
     private int tamanoPromedio;
+    private String rutaImagen;
 
     public Arbol() {
     }

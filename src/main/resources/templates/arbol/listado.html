@@ -6,9 +6,10 @@
     </head>
     <body>
         <header th:replace="~{layout/plantilla :: header}"></header>
-
+        <section th:replace="~{arbol/fragmentos :: botonesAgregar}"/>  
         <section th:replace="~{arbol/fragmentos :: agregarArbol}"/>
-        <footer th:replace="~{layout/plantilla :: footer}"></footer>
         <section th:replace="~{arbol/fragmentos :: listadoArboles}"/> 
+
+        <footer th:replace="~{layout/plantilla :: footer}"></footer>
     </body>
 </html>
